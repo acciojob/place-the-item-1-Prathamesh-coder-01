@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;                 
+  flex-direction: wrap;            /* Arrange items in a row */
+  justify-content: space-between; 
+	padding:20px;
+	gap:20px;
+                 
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  font-size: 100px;
+  color: black;
+  display: flex;                
+  justify-content: center;
+  align-items: center;
+} 
+
