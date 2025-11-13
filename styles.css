@@ -1,27 +1,22 @@
 .holder {
-  display: flex;                 
-  justify-content: space-between;
-	 flex-wrap: wrap; 
-	 padding: 0 10px; 
-	
-	
+  display: flex;                 /* Enables Flexbox */
+  justify-content: space-between;/* Space between items, first & last touch edges */
+  flex-wrap: wrap;    
+	margin:20px/* Items wrap to the next line instead of shrinking */
 }
 
 .item {
-  flex: 1;   
-	 margin: 10px; 
-	 min-width: 100px;
-	height: 100px;
-    font-size: 3em;
-    font-weight: bold;
-    display: flex;
-    align-items: center;           
-    justify-content: center;       
-    color: black;
+  flex: 0 0 150px;               /* Fixed width: no squashing */
+  height: 150px;                 /* Uniform height */
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;           /* Vertical centering */
+  justify-content: center;       /* Horizontal centering */
+  color: black;                  /* Text color for readability */
 }
-  
 
-
+/* Colors for clarity */
 .orange { background-color: orangered; }
 .blue { background-color: blue; }
 .green { background-color: green; }
