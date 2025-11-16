@@ -1,22 +1,23 @@
 .holder {
-  display: flex;                 /* Enables Flexbox */
-  justify-content: space-between;/* Space between items, first & last touch edges */
-  flex-wrap: wrap;    
-	margin:20px/* Items wrap to the next line instead of shrinking */
+  display: flex;                 /* Enable flexbox */
+  justify-content: space-between;/* Space between items */
+  flex-wrap: wrap;               /* Items will wrap (no squishing) */
+  margin: 20px;
 }
 
 .item {
-  flex: 0 0 150px;               /* Fixed width: no squashing */
-  height: 150px;                 /* Uniform height */
+  flex: 0 0 150px;
+  height: 150px;
   font-size: 3em;
   font-weight: bold;
-  display: flex;
-  align-items: center;           /* Vertical centering */
-  justify-content: center;       /* Horizontal centering */
-  color: black;                  /* Text color for readability */
+
+  /* NEW: put number at top-left */
+  display: block;
+  padding: 10px;
+  text-align: left;
 }
 
-/* Colors for clarity */
+/* Colors */
 .orange { background-color: orangered; }
 .blue { background-color: blue; }
 .green { background-color: green; }
