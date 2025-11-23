@@ -3,7 +3,7 @@
   justify-content: space-between;/* Space between items */
   flex-wrap: wrap;               /* Items will wrap (no squishing) */
   margin: 20px;
-}
+} 
 
 .item {
   flex: 0 0 150px;
